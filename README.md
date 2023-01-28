@@ -1,6 +1,8 @@
 # mini-projects
 
 ## Simple React Project file structure
+
+```
 src
 |
 |-- assets/
@@ -27,3 +29,4 @@ src
     |-- helpers.js
 |-- App.js
 |-- index.js
+```
