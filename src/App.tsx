@@ -1,19 +1,25 @@
 import { useState } from "react";
 import InfiniteScroll from "./components/Infinite-scroll/Infinite-scroll";
+import InfiniteScroll2 from "./components/Infinite-scroll2/Infinite-scroll2";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
-      inventore quisquam, vero minus ab recusandae accusantium aut maiores quia
-      incidunt quo officiis excepturi eveniet molestias, est esse repellendus
-      voluptatum. Ullam? Lorem, ipsum dolor sit amet consectetur adipisicing
-      elit. Consectetur voluptas illo accusamus obcaecati non. Optio libero
-      eaque alias iste error obcaecati ad ipsum, quia aspernatur cum repellat ea
-      ab sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      <InfiniteScroll />
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+        inventore quisquam, vero minus ab recusandae accusantium aut maiores
+        quia incidunt quo officiis excepturi eveniet molestias, est esse
+        repellendus voluptatum. Ullam? Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Consectetur voluptas illo accusamus obcaecati non.
+        Optio libero eaque alias iste error obcaecati ad ipsum, quia aspernatur
+        cum repellat ea ab sit. Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit.
+      </p>
+      {/* <InfiniteScroll /> */}
+      <InfiniteScroll2 />
+      <h1 className="text-3xl font-bold underline text-center hover:text-sky-700">
+        Hello world!!!
+      </h1>
     </>
   );
 }
