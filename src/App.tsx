@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InfiniteScroll from "./components/Infinite-scroll/Infinite-scroll";
 import InfiniteScroll2 from "./components/Infinite-scroll2/Infinite-scroll2";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -17,9 +18,12 @@ function App() {
       </p>
       {/* <InfiniteScroll /> */}
       <InfiniteScroll2 />
-      <h1 className="text-3xl font-bold underline text-center hover:text-sky-700">
-        Hello world!!!
-      </h1>
+      {/* <div className="flex items-center justify-center bg-slate-600">
+        <h1 className="bg-black text-3xl font-bold text-cyan-400 underline hover:text-sky-700">
+          Hello world!!!
+        </h1>
+      </div> */}
+      <Login />
     </>
   );
 }
